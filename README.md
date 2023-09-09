@@ -13,7 +13,7 @@
 4. :heavy_check_mark: Train your own transformer (E-D) (do anything you want, use PyTorch, OCP, PS, AMP, etc), but get your loss under 1.8
 
 ### Results
-![image](https://github.com/RaviNaik/ERA-SESSION16/assets/23289802/0bd51449-88e5-4423-bc92-cdab57356ec3)
+![image](https://github.com/GunaKoppula/ERAV1-Session-16/assets/61241928/faa5d6de-a192-44f6-b918-1ffcae12af7f)
 **Note:** Detailed results are presnt in results folder as a CSV file
 
 ### Model Summary
@@ -65,7 +65,7 @@ def process_dataset(ds: HFDataset, config):
     return cleaned_data
 ```
 **Output:**
-![image](https://github.com/RaviNaik/ERA-SESSION16/assets/23289802/ef9fa30d-5fc9-46c7-8a50-3aa465d317d9)
+![image](https://github.com/GunaKoppula/ERAV1-Session-16/assets/61241928/793e1933-3e62-4537-9e46-df4a2fdd5c13)
 
 ### Parameter Sharing
 ```python
@@ -76,7 +76,8 @@ decoder = Decoder(nn.ModuleList([d1, d2, d3, d3, d2, d1]))
 ```
 ### Loss & Other Metrics
 **Training Loss:**
-![image](https://github.com/RaviNaik/ERA-SESSION16/assets/23289802/476c27ff-b38a-4c78-a457-449960030c83)
+![image](https://github.com/GunaKoppula/ERAV1-Session-16/assets/61241928/e5a0864c-fdd9-414f-a85c-997806233a93)
+
 
 
 **CER, WER & BLEU Score:**
