@@ -65,6 +65,7 @@ def process_dataset(ds: HFDataset, config):
     return cleaned_data
 ```
 **Output:**
+
 ![image](https://github.com/GunaKoppula/ERAV1-Session-16/assets/61241928/793e1933-3e62-4537-9e46-df4a2fdd5c13)
 
 ### Parameter Sharing
